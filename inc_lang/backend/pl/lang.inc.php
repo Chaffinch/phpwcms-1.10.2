@@ -1245,6 +1245,8 @@ $BL['be_random'] = 'losowo';
 $BL['be_sorted'] = 'posortowane';
 $BL['be_granted_download'] = 'bezpieczne pobieranie tylko w witrynie';
 $BL['be_granted_feuser'] = 'Tylko dla zalogowanych użytkowników serwisu';
+$BL['be_hidden_for_feuser'] = 'Ukryty dla zalogowanych użytkowników witryny';
+$BL['be_visible_for_everybody']  = 'Widoczne dla wszystkich (domyślnie)';
 $BL['be_fileuploader_typeError'] = "{file} ma nieprawidłowe rozszerzenie. Prawidłowe rozszerzenie(a): {extensions}.";
 $BL['be_fileuploader_sizeError'] = "{file} jest zbyt duży, maksymalny rozmiar pliku to {sizeLimit}.";
 $BL['be_fileuploader_minSizeError'] = "{file} jest zbyt mały, minimalny rozmiar pliku to {minSizeLimit}.";
@@ -1505,13 +1507,12 @@ $BL['disposition_attachment_description'] = 'pobieranie bezpośrednie';
 $BL['disposition_inline'] = 'Inline';
 $BL['disposition_inline_description'] = 'wyświetl w przeglądarce';
 
-$BL['be_robots'] = 'Search index';
-$BL['be_robots_noindex'] = 'block search indexing (noindex)';
+$BL['be_robots'] = 'Indeks wyszukiwania';
+$BL['be_robots_noindex'] = 'blokowanie indeksowania wyszukiwania (noindex)';
 $BL['be_robots_nofollow'] = 'nie podążaj za linkami (nofollow)';
 
 $BL['be_cnt_form_direct_download'] = 'zezwól na pobieranie';
 $BL['be_cnt_form_direct_download_apikey'] = 'API key';
 $BL['be_cnt_form_apikey_reset'] = 'resetuj';
 $BL['be_copy_link'] = 'kopiuj link';
-
 $BL['be_deprecated'] = 'przestarzałe';
